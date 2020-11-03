@@ -1,0 +1,45 @@
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/intro-bg_1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+    margin: 12% auto 12% auto;
+}
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+.row_style{
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 10%;
+    height: 50%
+}
+.center-div{
+    position: absolute;
+    width: 650px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
